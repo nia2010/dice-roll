@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=DotGothic16&family=Rubik+Glitch&family=Russo+One&display=swap');
+body{
+    background-color: rgb(61, 61, 61);
+}
+#container{
+    border: solid;
+    box-sizing: border-box;
+    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+    border-color: white;
+    transition: 2s ease;
+    box-shadow: 3px 3px 15px white;
+}
+#container:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+}
+#container_2{
+    border: solid;
+    box-sizing: border-box;
+    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+    border-color: white;
+    transition: 2s ease;
+    box-shadow: 3px 3px 15px white;
+}
+#container_2:hover{
+    cursor: pointer;
+    transform: scale(1.04);   
+}
+#main{
+    display: flex;
+    gap: 150px;
+    margin-top: 200px;
+    margin-left: 750px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-family: russo one;
+}
+h2{
+    text-align: center;
+    margin-top: 85px;
+    color: rgba(255, 255, 255, 0.422);
+}
+button{
+    margin-left: 990px;
+    width: 100px;
+    height: 40px;
+    border: solid;
+    border-radius: 7px;
+    box-shadow: 3px 3px 3px black;
+    font-size: 20px;
+    transition: 3s ease;
+}
+button:hover{
+    cursor: pointer;
+    transform: rotate(360deg);
+}
